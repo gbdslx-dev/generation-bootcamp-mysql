@@ -50,7 +50,7 @@ SELECT * FROM tb_produto WHERE valor > 50;
 -- Produtos com valor entre 3 e 60
 SELECT * FROM tb_produto WHERE valor > 3 AND valor < 60;
 
--- Personagens que tem a letra C
+-- Produtos que tem a letra C
 SELECT * FROM tb_produto WHERE nome LIKE '%B%';
 
 -- Inner join entre tb_produto e tb_categoria
